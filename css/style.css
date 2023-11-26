@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+}
+
+body{
+    background-color: midnightblue;
+}
+
+header img{
+    width: 70px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    align-self: center;
+}
+
+header a:hover{
+    color: red;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    padding: 10px;
+    margin: 10px 53px;
+    border-radius: 10px;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly ;
+    margin-top: 25px;
+}
+
+.principal2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly ;
+    margin-top: 25px;
+}
+
+.principal3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly ;
+    margin-top: 25px;
+}
+
+.principal .a1{
+    background-color: white;
+    width: 1000px;
+    height: 800px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.principal2 .a1{
+    background-color: white;
+    width: 1000px;
+    height: 1000px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.principal3 .a1{
+    background-color: white;
+    width: 1000px;
+    height: 2900px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.principal .a2{
+    background-color: white;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.principal2 .a2{
+    background-color: white;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.principal3 .a2{
+    background-color: white;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.principal .a2 .b1{
+    padding-bottom: 40px;
+}
+
+.principal2 .a2 .b1{
+    padding-bottom: 40px;
+}
+
+.principal3 .a2 .b1{
+    padding-bottom: 40px;
+}
+
+.principal .a2 .b2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.principal2 .a2 .b2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.principal3 .a2 .b2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.principal .a2 .b2 a:hover{
+    color: red;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.principal2 .a2 .b2 a:hover{
+    color: red;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.principal3 .a2 .b2 a:hover{
+    color: red;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.principal .a2 .b2{
+    padding-bottom: 45px;
+}
+
+.principal2 .a2 .b2{
+    padding-bottom: 45px;
+}
+
+.principal3 .a2 .b2{
+    padding-bottom: 45px;
+}
+
+.principal .a2 .b3{
+    padding-bottom: 45px;
+}
+
+.principal2 .a2 .b3{
+    padding-bottom: 45px;
+}
+
+.principal3 .a2 .b3{
+    padding-bottom: 45px;
+}
+
+.principal .a2 .b3 a{
+    text-decoration: none;
+    color: black;
+}
+
+.principal2 .a2 .b3 a{
+    text-decoration: none;
+    color: black;
+}
+
+.principal3 .a2 .b3 a{
+    text-decoration: none;
+    color: black;
+}
+
+.principal .a2 .b3 a:hover{
+    color: red;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.principal2 .a2 .b3 a:hover{
+    color: red;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.principal3 .a2 .b3 a:hover{
+    color: red;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.principal .a2 .b3 a{
+    padding-bottom: 45px;
+}
+
+.principal2 .a2 .b3 a{
+    padding-bottom: 45px;
+}
+
+.principal3 .a2 .b3 a{
+    padding-bottom: 45px;
+}
+
+.principal .a2 .b4{
+    padding-bottom: 45px;
+}
+
+.principal2 .a2 .b4{
+    padding-bottom: 45px;
+}
+
+.principal3 .a2 .b4{
+    padding-bottom: 45px;
+}
+
+.principal .a2 .b5{
+    padding-bottom: 45px;
+}
+
+.principal2 .a2 .b5{
+    padding-bottom: 45px;
+}
+
+.principal3 .a2 .b5{
+    padding-bottom: 45px;
+}
+
+.principal .a1 h1{
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.principal2 .a1 h1{
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.principal3 .a1 h1{
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.principal .a1 .p1{
+    line-height: 35px;
+}
+
+.principal2 .a1 .p1{
+    line-height: 35px;
+}
+
+.principal3 .a1 .p1{
+    line-height: 35px;
+}
+
+footer{
+    background-color: white;
+    margin: 10px 53px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.principal .a1 .a1img .img1a1{
+    width: 470px;
+    border-radius: 5px;
+}
+
+.principal .a1 .a1img .img2a1{
+    width: 450px;
+    border-radius: 5px;
+}
+
+.principal .a1 .a1img{
+   display: flex;
+   justify-content: space-evenly;
+   padding-bottom: 40px;
+}
+
+.principal2 .a1 .a1img{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+}
+
+.principal .a1 .a1img .img3a1{
+    width: 500px;
+}
+
+.principal2 .a1 .a1img .img3a1{
+    width: 500px;
+}
+
+.p1{
+    padding-top: 10px;
+}
+
+.principal3 .a1 .missions1 .missionimg1{
+    width: 500px;
+    border-radius: 5px;
+}
+
+.principal3 .a1 .missions1{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.principal3 .a1 .missions1 h2{
+    align-self: center;
+}
+
+.principal3 .a1 .missions2 .missionimg2{
+    width: 500px;
+    border-radius: 5px;
+}
+
+.principal3 .a1 .missions2{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.principal3 .a1 .missions2 h2{
+    align-self: center;
+    
+}
+
+.principal3 .a1 .missions3 .missionimg3{
+    width: 500px;
+    border-radius: 5px;
+}
+
+.principal3 .a1 .missions3{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.principal3 .a1 .missions3 h2{
+    align-self: center;
+}
+
+.principal3 .a1 .missions4 .missionimg4{
+    width: 500px;
+    border-radius: 5px;
+}
+
+.principal3 .a1 .missions4{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.principal3 .a1 .missions4 h2{
+    align-self: center;
+}
+
+.principal3 .a1 .missions5 .missionimg5{
+    width: 500px;
+    border-radius: 5px;
+}
+
+.principal3 .a1 .missions5{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.principal3 .a1 .missions5 h2{
+    align-self: center;
+}
+
+.principal3 .a1 .missions6 .missionimg6{
+    width: 500px;
+    border-radius: 5px;
+}
+
+.principal3 .a1 .missions6{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.principal3 .a1 .missions6 h2{
+    align-self: center;
+}
+
+.principal3 .a1 .missions7 .missionimg7{
+    width: 500px;
+    border-radius: 5px;
+}
+
+.principal3 .a1 .missions7{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.principal3 .a1 .missions7 h2{
+    align-self: center;
+}
+
+.principal3 .a1 .missions8 .missionimg8{
+    width: 500px;
+    border-radius: 5px;
+}
+
+.principal3 .a1 .missions8{
+    display: flex;
+    justify-content: space-between;
+}
+
+.principal3 .a1 .missions8 h2{
+    align-self: center;
+}
+
+@media screen and (max-width: 1024px){
+    
+}
+
